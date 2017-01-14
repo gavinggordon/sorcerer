@@ -1,6 +1,7 @@
 # GGG\Http\Data\Collection\Sorcerer
 
-[![Version Released](https://img.shields.io/github/version/gavinggordon/sorcerer.svg)](https://github.com/gavinggordon/sorcerer/master)
+[![Packagist Version](https://img.shields.io/packagist/v/gavinggordon/sorcerer.svg)](https://packagist.com/gavinggordon/sorcerer)
+[![Github Release](https://img.shields.io/github/release/gavinggordon/sorcerer.svg)](https://github.com/gavinggordon/sorcerer/master)
 [![Usage License](https://img.shields.io/github/license/gavinggordon/sorcerer.svg)](https://github.com/gavinggordon/sorcerer/blob/master/LICENSE.txt)
 
 ## Description
