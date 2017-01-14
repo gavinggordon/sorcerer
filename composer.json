@@ -1,0 +1,54 @@
+{
+	"name": "gavinggordon/sorcerer",
+	"description": "An easy-to-use PHP class for scraping webpages' source code.",
+	"license": "MIT",
+	"keywords": [
+	  	"v1.0.0",
+		"php",
+		"http",
+		"data collecting",
+		"collection",
+		"web scraping",
+		"scraper",
+		"scraping",
+		"source code",
+		"html code",
+		"crawling",
+		"web crawler",
+		"web crawling",
+		"website",
+		"webpage",
+		"investigation",
+		"inspection"
+	],
+	"authors": [
+		{
+			"name": "Gavin G Gordon",
+			"email": "support@gavingordon.com",
+			"homepage": "https://gavingordon.com",
+			"role": "Developer"
+		}
+	],
+	"version": "1.0.0",
+	"minimum-stability": "stable",
+	"homepage": "http://sorcerer.gavingordon.com",
+	"support": {
+		"issues": "https://github.com/gavinggordon/sorcerer/issues",
+		"source": "https://github.com/gavinggordon/sorcerer"
+	},
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/gavinggordon/sorcerer.git"
+		}
+	],
+	"require": {},
+	"require-dev": {
+		"phpunit/phpunit": "4.0.*"
+	},
+	"autoload": {
+			"psr-4": {
+				"GGG\\": "src"
+		}
+	}
+}
