@@ -1,4 +1,4 @@
-# GGG\Http\Data\Collection\Sorcerer
+# Sorcerer
 
 [![Packagist Version](https://img.shields.io/packagist/v/gavinggordon/sorcerer.svg)](https://packagist.com/gavinggordon/sorcerer)
 [![Github Release](https://img.shields.io/github/release/gavinggordon/sorcerer.svg)](https://github.com/gavinggordon/sorcerer/master)
@@ -9,24 +9,26 @@ An easy-to-use PHP class for scraping webpages' source code.
 
 ## Usage
 
-### Install
-```
+### Installation
+
+```shellscript
 	$ composer require gavinggordon/sorcerer
 ```
 
-### Autoload
+### Examples
+
+#### Insantiation
+
 ``` php
 	include( 'vendor/autoload.php' );
-```
 
-### Insantiate
-``` php
 	use GGG\Http\Data\Collection\Sorcerer as Sorcerer;
 	
-	$scraper = new Sorcerer;
+	$scraper = new Sorcerer();
 ```
 
-### Configure
+#### Configuration
+
 ``` php
 	$url = 'http://www.testurl.com/index.php';
 	
@@ -41,6 +43,7 @@ An easy-to-use PHP class for scraping webpages' source code.
 ```
 
 ### Run 
+
 If no filepath was set for "$savefile",...
 ```php
 	$data = $scraper->scrape();
@@ -57,6 +60,10 @@ If a filepath was set for "$savefile",...
 ...the scraped data will be saved to 
 the file which you specified.
 
-## License
+#### Issues
 
-This PHP class package utilizes the MIT License.
+If you have any issues at all, please post your findings in the issues page at [https://github.com/gavinggordon/sorcerer/issues](https://github.com/gavinggordon/sorcerer/issues).
+
+#### License
+
+This package utilizes the MIT License.
